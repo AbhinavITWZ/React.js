@@ -1,0 +1,47 @@
+.App {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+
+.basket {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  padding: 1rem;
+  display: flex;
+}
+
+.apple-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+  display: flex;
+}
+
+.apple {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.arrow-button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.arrow-button img {
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
