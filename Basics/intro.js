@@ -7,7 +7,6 @@ let div=React.createElement("div",{},[
     React.createElement("h1",{},"How Are you"),
     React.createElement("h2",{},"Whats Up"),
 ])
-root.render([h1,div])
 
 
 //kul mila ke yrr hume html hi likhna h toh kyy na html direct likhe js me 
@@ -15,9 +14,12 @@ root.render([h1,div])
 
 
 
-{/* <div>
-    h1
-    h2
-</div> */}
+
+//wrting html/xml like structure within js file  called as jsx 
+//its then transpiled to react element structure using babel 
+
+let h2=<h2>Hello REACT Using jsx</h2>
 
 
+
+root.render(h2)
