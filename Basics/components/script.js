@@ -9,3 +9,10 @@ let Fn=()=>{
 }
 let root=ReactDOM.createRoot(document.querySelector(".root"))
 root.render([<Fn></Fn>,Fn(),<Fn/>])
+
+
+//fn_name() ..>old method
+
+//<fn_name/> another method for caaling fns returning html
+
+
