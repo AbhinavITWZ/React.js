@@ -22,4 +22,11 @@ let h2=<h2>Hello REACT Using jsx</h2>
 
 
 
-root.render(h2)
+
+//looking into jsx
+let age=21;
+let cnt=<h2>{`what is ur name ${age}`}</h2> //html region 
+//{} ye h script region 
+//{ script ka code hum iske andar likhenge }
+root.render(cnt)
+
